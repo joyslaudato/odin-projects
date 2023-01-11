@@ -159,7 +159,6 @@ button a,
 .content .tiles {
     display: flex;
     justify-content: center;
-    /* gap: 0.5rem; */
 }
 
 .content .tile {
@@ -288,12 +287,12 @@ footer {
 
     .content .tiles {
         flex-wrap: wrap;
+        justify-content: space-around;
         row-gap: 3rem;
     }
 
     .content .tile {
-        /* border: 1px solid black; */
-        max-width: 50%;
+        max-width: 48%;
     }
 
     .call-to-action .container {
